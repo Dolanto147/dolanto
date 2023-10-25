@@ -1,7 +1,9 @@
+"use client";
 import comingSoonImg from "@/../public/comingSoonLogo.jpg";
 import logo from "@/../public/logo.jpg";
 import { Montserrat } from "next/font/google";
 import Image from "next/image";
+
 const monteSerrat = Montserrat({
   weight: ["700", "800"],
   subsets: ["latin"],
